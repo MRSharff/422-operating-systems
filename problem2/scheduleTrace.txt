@@ -1,0 +1,126 @@
+Team 6: Derek Moore, Son Vu, Mat Sharff
+Process Enqueued: PID: 0x1, State: ready, Priority: 0x8, PC: 0x0000
+Process Enqueued: PID: 0x2, State: ready, Priority: 0xE, PC: 0x0000
+Process Enqueued: PID: 0x3, State: ready, Priority: 0xC, PC: 0x0000
+PCB: PID: 0x0, State: interrupted, Priority: 0x2, PC: 0x0BDE
+Switching to: PID: 0x1, State: ready, Priority: 0x8, PC: 0x0000
+Now running: PID: 0x1, State: running, Priority: 0x8, PC: 0x0000
+Returned to Ready Queue: PID: 0x0, State: ready, Priority: 0x2, PC: 0x0BDE
+Head: PID:0x2 PC:0x0 State: ready -> P2->P3->P0-*
+Process Enqueued: PID: 0x4, State: ready, Priority: 0x1, PC: 0x0000
+Process Enqueued: PID: 0x5, State: ready, Priority: 0x0, PC: 0x0000
+Process Enqueued: PID: 0x6, State: ready, Priority: 0x3, PC: 0x0000
+PCB: PID: 0x1, State: interrupted, Priority: 0x8, PC: 0x0C82
+Switching to: PID: 0x2, State: ready, Priority: 0xE, PC: 0x0000
+Now running: PID: 0x2, State: running, Priority: 0xE, PC: 0x0000
+Returned to Ready Queue: PID: 0x1, State: ready, Priority: 0x8, PC: 0x0C82
+Head: PID:0x3 PC:0x0 State: ready -> P3->P0->P4->P5->P6->P1-*
+Process Enqueued: PID: 0x7, State: ready, Priority: 0xD, PC: 0x0000
+Process Enqueued: PID: 0x8, State: ready, Priority: 0x1, PC: 0x0000
+Process Enqueued: PID: 0x9, State: ready, Priority: 0xB, PC: 0x0000
+Process Enqueued: PID: 0xA, State: ready, Priority: 0x1, PC: 0x0000
+Process Enqueued: PID: 0xB, State: ready, Priority: 0x1, PC: 0x0000
+PCB: PID: 0x2, State: interrupted, Priority: 0xE, PC: 0x0F88
+Switching to: PID: 0x3, State: ready, Priority: 0xC, PC: 0x0000
+Now running: PID: 0x3, State: running, Priority: 0xC, PC: 0x0000
+Returned to Ready Queue: PID: 0x2, State: ready, Priority: 0xE, PC: 0x0F88
+Head: PID:0x0 PC:0xBDE State: ready -> P0->P4->P5->P6->P1->P7->P8->P9->P10->P11->P2-*
+Process Enqueued: PID: 0xC, State: ready, Priority: 0xD, PC: 0x0000
+PCB: PID: 0x3, State: interrupted, Priority: 0xC, PC: 0x0C68
+Switching to: PID: 0x0, State: ready, Priority: 0x2, PC: 0x0BDE
+Now running: PID: 0x0, State: running, Priority: 0x2, PC: 0x0BDE
+Returned to Ready Queue: PID: 0x3, State: ready, Priority: 0xC, PC: 0x0C68
+Head: PID:0x4 PC:0x0 State: ready -> P4->P5->P6->P1->P7->P8->P9->P10->P11->P2->P12->P3-*
+Process Enqueued: PID: 0xD, State: ready, Priority: 0xB, PC: 0x0000
+Process Enqueued: PID: 0xE, State: ready, Priority: 0xA, PC: 0x0000
+Process Enqueued: PID: 0xF, State: ready, Priority: 0x4, PC: 0x0000
+Process Enqueued: PID: 0x10, State: ready, Priority: 0x4, PC: 0x0000
+Process Enqueued: PID: 0x11, State: ready, Priority: 0x6, PC: 0x0000
+PCB: PID: 0x0, State: interrupted, Priority: 0x2, PC: 0x1B26
+Switching to: PID: 0x4, State: ready, Priority: 0x1, PC: 0x0000
+Now running: PID: 0x4, State: running, Priority: 0x1, PC: 0x0000
+Returned to Ready Queue: PID: 0x0, State: ready, Priority: 0x2, PC: 0x1B26
+Head: PID:0x5 PC:0x0 State: ready -> P5->P6->P1->P7->P8->P9->P10->P11->P2->P12->P3->P13->P14->P15->P16->P17->P0-*
+Process Enqueued: PID: 0x12, State: ready, Priority: 0x3, PC: 0x0000
+Process Enqueued: PID: 0x13, State: ready, Priority: 0x6, PC: 0x0000
+PCB: PID: 0x4, State: interrupted, Priority: 0x1, PC: 0x0EF4
+Switching to: PID: 0x5, State: ready, Priority: 0x0, PC: 0x0000
+Now running: PID: 0x5, State: running, Priority: 0x0, PC: 0x0000
+Returned to Ready Queue: PID: 0x4, State: ready, Priority: 0x1, PC: 0x0EF4
+Head: PID:0x6 PC:0x0 State: ready -> P6->P1->P7->P8->P9->P10->P11->P2->P12->P3->P13->P14->P15->P16->P17->P0->P18->P19->P4-*
+Process Enqueued: PID: 0x14, State: ready, Priority: 0x6, PC: 0x0000
+Process Enqueued: PID: 0x15, State: ready, Priority: 0xE, PC: 0x0000
+PCB: PID: 0x5, State: interrupted, Priority: 0x0, PC: 0x0F20
+Switching to: PID: 0x6, State: ready, Priority: 0x3, PC: 0x0000
+Now running: PID: 0x6, State: running, Priority: 0x3, PC: 0x0000
+Returned to Ready Queue: PID: 0x5, State: ready, Priority: 0x0, PC: 0x0F20
+Head: PID:0x1 PC:0xC82 State: ready -> P1->P7->P8->P9->P10->P11->P2->P12->P3->P13->P14->P15->P16->P17->P0->P18->P19->P4->P20->P21->P5-*
+Process Enqueued: PID: 0x16, State: ready, Priority: 0xC, PC: 0x0000
+Process Enqueued: PID: 0x17, State: ready, Priority: 0x3, PC: 0x0000
+Process Enqueued: PID: 0x18, State: ready, Priority: 0x2, PC: 0x0000
+PCB: PID: 0x6, State: interrupted, Priority: 0x3, PC: 0x0E23
+Switching to: PID: 0x1, State: ready, Priority: 0x8, PC: 0x0C82
+Now running: PID: 0x1, State: running, Priority: 0x8, PC: 0x0C82
+Returned to Ready Queue: PID: 0x6, State: ready, Priority: 0x3, PC: 0x0E23
+Head: PID:0x7 PC:0x0 State: ready -> P7->P8->P9->P10->P11->P2->P12->P3->P13->P14->P15->P16->P17->P0->P18->P19->P4->P20->P21->P5->P22->P23->P24->P6-*
+Process Enqueued: PID: 0x19, State: ready, Priority: 0x7, PC: 0x0000
+PCB: PID: 0x1, State: interrupted, Priority: 0x8, PC: 0x18F8
+Switching to: PID: 0x7, State: ready, Priority: 0xD, PC: 0x0000
+Now running: PID: 0x7, State: running, Priority: 0xD, PC: 0x0000
+Returned to Ready Queue: PID: 0x1, State: ready, Priority: 0x8, PC: 0x18F8
+Head: PID:0x8 PC:0x0 State: ready -> P8->P9->P10->P11->P2->P12->P3->P13->P14->P15->P16->P17->P0->P18->P19->P4->P20->P21->P5->P22->P23->P24->P6->P25->P1-*
+Process Enqueued: PID: 0x1A, State: ready, Priority: 0xA, PC: 0x0000
+Process Enqueued: PID: 0x1B, State: ready, Priority: 0xE, PC: 0x0000
+Process Enqueued: PID: 0x1C, State: ready, Priority: 0x7, PC: 0x0000
+PCB: PID: 0x7, State: interrupted, Priority: 0xD, PC: 0x0EDE
+Switching to: PID: 0x8, State: ready, Priority: 0x1, PC: 0x0000
+Now running: PID: 0x8, State: running, Priority: 0x1, PC: 0x0000
+Returned to Ready Queue: PID: 0x7, State: ready, Priority: 0xD, PC: 0x0EDE
+Head: PID:0x9 PC:0x0 State: ready -> P9->P10->P11->P2->P12->P3->P13->P14->P15->P16->P17->P0->P18->P19->P4->P20->P21->P5->P22->P23->P24->P6->P25->P1->P26->P27->P28->P7-*
+Process Enqueued: PID: 0x1D, State: ready, Priority: 0xD, PC: 0x0000
+PCB: PID: 0x8, State: interrupted, Priority: 0x1, PC: 0x0F8F
+Switching to: PID: 0x9, State: ready, Priority: 0xB, PC: 0x0000
+Now running: PID: 0x9, State: running, Priority: 0xB, PC: 0x0000
+Returned to Ready Queue: PID: 0x8, State: ready, Priority: 0x1, PC: 0x0F8F
+Head: PID:0xA PC:0x0 State: ready -> P10->P11->P2->P12->P3->P13->P14->P15->P16->P17->P0->P18->P19->P4->P20->P21->P5->P22->P23->P24->P6->P25->P1->P26->P27->P28->P7->P29->P8-*
+Process Enqueued: PID: 0x1E, State: ready, Priority: 0x9, PC: 0x0000
+PCB: PID: 0x9, State: interrupted, Priority: 0xB, PC: 0x0D3C
+Switching to: PID: 0xA, State: ready, Priority: 0x1, PC: 0x0000
+Now running: PID: 0xA, State: running, Priority: 0x1, PC: 0x0000
+Returned to Ready Queue: PID: 0x9, State: ready, Priority: 0xB, PC: 0x0D3C
+Head: PID:0xB PC:0x0 State: ready -> P11->P2->P12->P3->P13->P14->P15->P16->P17->P0->P18->P19->P4->P20->P21->P5->P22->P23->P24->P6->P25->P1->P26->P27->P28->P7->P29->P8->P30->P9-*
+Process Enqueued: PID: 0x1F, State: ready, Priority: 0xD, PC: 0x0000
+Process Enqueued: PID: 0x20, State: ready, Priority: 0x2, PC: 0x0000
+PCB: PID: 0xA, State: interrupted, Priority: 0x1, PC: 0x0DA7
+Switching to: PID: 0xB, State: ready, Priority: 0x1, PC: 0x0000
+Now running: PID: 0xB, State: running, Priority: 0x1, PC: 0x0000
+Returned to Ready Queue: PID: 0xA, State: ready, Priority: 0x1, PC: 0x0DA7
+Head: PID:0x2 PC:0xF88 State: ready -> P2->P12->P3->P13->P14->P15->P16->P17->P0->P18->P19->P4->P20->P21->P5->P22->P23->P24->P6->P25->P1->P26->P27->P28->P7->P29->P8->P30->P9->P31->P32->P10-*
+Process Enqueued: PID: 0x21, State: ready, Priority: 0xD, PC: 0x0000
+Process Enqueued: PID: 0x22, State: ready, Priority: 0x5, PC: 0x0000
+PCB: PID: 0xB, State: interrupted, Priority: 0x1, PC: 0x0BDD
+Switching to: PID: 0x2, State: ready, Priority: 0xE, PC: 0x0F88
+Now running: PID: 0x2, State: running, Priority: 0xE, PC: 0x0F88
+Returned to Ready Queue: PID: 0xB, State: ready, Priority: 0x1, PC: 0x0BDD
+Head: PID:0xC PC:0x0 State: ready -> P12->P3->P13->P14->P15->P16->P17->P0->P18->P19->P4->P20->P21->P5->P22->P23->P24->P6->P25->P1->P26->P27->P28->P7->P29->P8->P30->P9->P31->P32->P10->P33->P34->P11-*
+Process Enqueued: PID: 0x23, State: ready, Priority: 0x3, PC: 0x0000
+Process Enqueued: PID: 0x24, State: ready, Priority: 0x2, PC: 0x0000
+Process Enqueued: PID: 0x25, State: ready, Priority: 0xC, PC: 0x0000
+PCB: PID: 0x2, State: interrupted, Priority: 0xE, PC: 0x1D68
+Switching to: PID: 0xC, State: ready, Priority: 0xD, PC: 0x0000
+Now running: PID: 0xC, State: running, Priority: 0xD, PC: 0x0000
+Returned to Ready Queue: PID: 0x2, State: ready, Priority: 0xE, PC: 0x1D68
+Head: PID:0x3 PC:0xC68 State: ready -> P3->P13->P14->P15->P16->P17->P0->P18->P19->P4->P20->P21->P5->P22->P23->P24->P6->P25->P1->P26->P27->P28->P7->P29->P8->P30->P9->P31->P32->P10->P33->P34->P11->P35->P36->P37->P2-*
+Process Enqueued: PID: 0x26, State: ready, Priority: 0x7, PC: 0x0000
+PCB: PID: 0xC, State: interrupted, Priority: 0xD, PC: 0x0D03
+Switching to: PID: 0x3, State: ready, Priority: 0xC, PC: 0x0C68
+Now running: PID: 0x3, State: running, Priority: 0xC, PC: 0x0C68
+Returned to Ready Queue: PID: 0xC, State: ready, Priority: 0xD, PC: 0x0D03
+Head: PID:0xD PC:0x0 State: ready -> P13->P14->P15->P16->P17->P0->P18->P19->P4->P20->P21->P5->P22->P23->P24->P6->P25->P1->P26->P27->P28->P7->P29->P8->P30->P9->P31->P32->P10->P33->P34->P11->P35->P36->P37->P2->P38->P12-*
+Process Enqueued: PID: 0x27, State: ready, Priority: 0x5, PC: 0x0000
+Process Enqueued: PID: 0x28, State: ready, Priority: 0xE, PC: 0x0000
+PCB: PID: 0x3, State: interrupted, Priority: 0xC, PC: 0x1822
+Switching to: PID: 0xD, State: ready, Priority: 0xB, PC: 0x0000
+Now running: PID: 0xD, State: running, Priority: 0xB, PC: 0x0000
+Returned to Ready Queue: PID: 0x3, State: ready, Priority: 0xC, PC: 0x1822
+Head: PID:0xE PC:0x0 State: ready -> P14->P15->P16->P17->P0->P18->P19->P4->P20->P21->P5->P22->P23->P24->P6->P25->P1->P26->P27->P28->P7->P29->P8->P30->P9->P31->P32->P10->P33->P34->P11->P35->P36->P37->P2->P38->P12->P39->P40->P3-*
